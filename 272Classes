@@ -1,0 +1,132 @@
+public  class Material
+{
+  //data members
+  private int mMaterialTypeID;
+  private string mName;
+
+  //constructor method
+  public Material()
+   {
+     mMaterialTypeID = "0";
+     mName = "";
+   }
+
+   //Properties
+   public int MaterialTypeID
+   {
+     get { return mMaterialTypeID; }
+     set { mMaterialTypeID = value: }
+   }
+      public int Name
+   {
+     get { return mName; }
+     set { mName = value: }
+   }
+
+public  class MaterialType
+{
+  //data members
+  private int mMaterialTypeID;
+  private string mTypeName;
+
+  //constructor method
+  public MaterialType()
+   {
+     mMaterialTypeID = "0";
+     mTypeName = "";
+   }
+
+   //Properties
+   public int MaterialTypeID
+   {
+     get { return mMaterialTypeID; }
+     set { mMaterialTypeID = value: }
+   }
+      public int TypeName
+   {
+     get { return mTypeName; }
+     set { mTypeName = value: }
+   }
+   
+   public  class Subject
+{
+  //data members
+  private int mSubjectID;
+  private string mName;
+
+  //constructor method
+  public Material()
+   {
+     mSubjectID = "0";
+     mName = "";
+   }
+
+   //Properties
+   public int SubjectID
+   {
+     get { return mSubjectID; }
+     set { mSubjectID = value: }
+   }
+      public int Name
+   {
+     get { return mName; }
+     set { mName = value: }
+   }
+   
+   public  class Image
+{
+  //data members
+  private int mSubjectID;
+  private string mImage;
+
+  //constructor method
+  public Material()
+   {
+     mSubjectID = "0";
+     mImage = "";
+   }
+
+   //Properties
+   public int SubjectID
+   {
+     get { return mSubjectID; }
+     set { mSubjectID = value: }
+   }
+      public int Image
+   {
+     get { return mImage; }
+     set { mImage = value: }
+   }
+   
+   public  class Admin
+{
+  //data members
+  private int mAdminID;
+  private string mAdminName;
+  private string mAdminLastName;
+
+  //constructor method
+  public Material()
+   {
+     mAdminID = "0";
+     mAdminName = "";
+     mAdminLastName = "";
+   }
+
+   //Properties
+   public int AdminID
+   {
+     get { return mAdminID; }
+     set { mAdminID = value: }
+   }
+      public int AdminName
+   {
+     get { return mAdminName; }
+     set { mAdminName = value: }
+   }
+      public int AdminLAstName
+   {
+     get { return mAdminLastName; }
+     set { mAdminLastName = value: }
+   }
+   
