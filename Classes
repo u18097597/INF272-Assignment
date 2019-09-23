@@ -1,0 +1,144 @@
+    public class Student
+    {
+	 private int ID;
+        private string Name;
+        private string LastName;
+        private string Address;
+        private int cellNumber;
+
+        public Student()
+        {
+     ID = 0;
+            Name = "";
+            LastName = "";
+            Address = "";
+            cellNumber = 0;
+        }
+	 
+	 public int StudentID
+        {
+     Get { return ID; }
+     Set { ID = value; }
+ }
+        public string GetName
+        {
+            get { return Name; }
+            set { Name = value; }
+        }
+        public string lastName
+        {
+            get { return LastName; }
+            set { LastName = value; }
+        }
+        public string address
+        {
+            get { return Address; }
+            set { Address = value; }
+        }
+        public int CellNumber
+        {
+            get { return cellNumber; }
+            set { cellNumber = value; }
+        }
+    }
+      public class Colour
+    {
+        private int subjectID;
+        private string colour;
+
+        public Colour()
+        {
+            subjectID = 0;
+            colour = "";
+        }
+
+        public int SubjectID
+        {
+            get { return subjectID; }
+            set { subjectID = value; }
+        }
+        public string mColour
+        {
+            get { return colour; }
+            set { colour = value; }
+        }
+    }
+      public class SubjectMaterial
+    {
+        private int subjectID;
+        private int materialtypeID;
+        private string submaterial;
+
+        public SubjectMaterial()
+        {
+            subjectID = 0;
+            materialtypeID = 0;
+            submaterial = "";
+        }
+
+        public int SubjectID
+        {
+            get { return subjectID; }
+            set { subjectID = value; }
+        }
+        public int TypeID
+        {
+            get { return materialtypeID; }
+            set { materialtypeID = value; }
+        }
+        public string subMaterial
+        {
+            get { return submaterial; }
+            set { submaterial = value; }
+        }
+    }
+      public class StudentSubject
+    {
+        private int studentID;
+        private int subjectID;
+        private int year;
+
+        public StudentSubject()
+        {
+            subjectID = 0;
+            studentID = 0;
+            year = 0;
+        }
+        public int StudID
+        {
+            get { return studentID; }
+            set { studentID = value; }
+        }
+        public int SubjectID
+        {
+            get { return subjectID; }
+            set { subjectID = value; }
+        }
+
+        public int Year
+        {
+            get { return year; }
+            set { year = value; }
+        }
+    }
+    public class InstitutionType
+    {
+        private int InstID;
+        private string Name;
+
+        public InstitutionType()
+        {
+            InstID = 0;
+            Name = "";
+        }
+
+        public int instID
+        {
+            get { return InstID; }
+            set { InstID = value; }
+        }
+        public string name
+        {
+            get { return name; }
+            set { name = value; }
+        }}
