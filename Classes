@@ -1,0 +1,115 @@
+    public class Institution
+    {
+        //data memebers
+        private int mInstitutionID;
+        private string mInstitutionName;
+        private string mInsitutionLocation;
+        //constructor method
+        public Institution()
+        {
+            mInstitutionID = 0;
+            mInstitutionName = "";
+            mInsitutionLocation = "";
+        }
+        //property
+        public int InstitutionID
+        {
+            get { return mInstitutionID; }
+            set { mInstitutionID = value; }
+        }
+        public string InstitutionName
+        {
+            get { return mInstitutionName; }
+            set { mInstitutionName = value; }
+        }
+        public string InstitutionLocation
+        {
+            get { return mInsitutionLocation; }
+            set { mInsitutionLocation = value; }
+        }
+
+    }
+    public class Region
+    {   //data memebers
+        private int mRegionID;
+        private string mRegionZipCode;
+        //constructor method
+        public Region()
+        {
+            mRegionID = 0;
+            RegionZipCode = "";
+        }
+        //property
+        public int RegionID
+        {
+            get { return mRegionID; }
+            set { mRegionID = value; }
+        }
+        public string RegionZipCode
+        {
+            get { return RegionZipCode; }
+            set { RegionZipCode = value; }
+        }
+    }
+    public class Country
+    {   //data memebers
+        private int mCountryID;
+        private string mCountryName;
+        //constructor method
+        public Country()
+        {
+            mCountryID = 0;
+            mCountryName = "";
+        }
+        //property
+        public int CountryID
+        {
+            get { return mCountryID; }
+            set { mCountryID = value; }
+        }
+    }
+    public class Grade:Student
+    {   //data memebers
+        private int mGradeID;
+        private string mGrade;
+        //constructor method
+        public Grade()
+        {
+            mGrade = "";
+            mGradeID = 0;
+        }
+        //property
+        public int GradeID
+        {
+            get { return mGradeID; }
+            set { mGradeID = value; }
+        }
+        public string grade
+        {
+            get { return mGrade; }
+            set { mGrade = value; }
+        }
+    }
+    public class Ethnicity:Student
+    {   //data memebers
+        private int mEthnicityID;
+        private string mEthnicity;
+        //constructor method
+        public Ethnicity()
+        {
+            mEthnicityID = 0;
+            mEthnicity = "";
+        }
+        //property
+        public int EthnicityID
+        {
+            get { return mEthnicityID; }
+            set { mEthnicityID = value; }
+        }
+        public string ethnicity
+        {
+            get { return mEthnicity; }
+            set { mEthnicity = value; }
+        }
+
+    }
