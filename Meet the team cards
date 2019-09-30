@@ -1,0 +1,37 @@
+<!--Cards-->
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="~/Images/Team1.jpg" />
+                <div class="card-body">
+                    <h4 class="card-title">Rutendo Musvosve </h4>
+                    <p class="card-text">Rutendo has programming experience of 5 years in C#, HTML, CSS, Javascript and Bootstrap with a kumlada </p>
+                    <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="~/Images/Team2.jpg" />
+                <div class="card-body">
+                    <h4 class="card-title"> Yoletha Baartman</h4>
+                    <p class="card-text">Yoletha has programming experience of 4 years in C#, HTML, CSS, Javascript and Bootstrap  </p>
+                    <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="~/Images/Team3.jpg" />
+                <div class="card-body">
+                    <h4 class="card-title">Vuyolwethu Mafanga</h4>
+                    <p class="card-text">Vuyolwethu has programming experience of 3 years in C#, HTML, CSS, Javascript and Bootstrap </p>
+                    <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
