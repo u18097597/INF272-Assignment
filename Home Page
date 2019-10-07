@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<title>Think Twice</title>
+<meta charset="UTF-8">
+<body>
+     <!-- Slides --!>
+  <div class="Picture Slideshow diplay-container center">
+    <img src="https://www.google.co.za/url?sa=i&source=images&cd=&ved=2ahUKEwijjv2K5IrlAhUiyYUKHfa7Bx8QjRx6BAgBEAQ&url=https%3A%2F%2Fwww.edarabia.com%2Fwhy-reading-important-children%2F&psig=AOvVaw3hgwExJw1IKZc1Mko_6TnO&ust=1570559457545993" style="width:100%">
+    <div class="display-bottommiddle container text-white padding-32 hide-small">
+      <h3>We Aim</h3>
+      <p><b>To provide quality resources for children ranging from Grade 0 to Matric </b></p>   
+    </div>
+  </div>
+  <div class="Picture Slideshow display-container center">
+    <img src="https://www.google.co.za/url?sa=i&source=images&cd=&ved=2ahUKEwiz8M2P5YrlAhVN-YUKHeoNBmgQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.penguin.co.uk%2Farticles%2Fchildren%2F2017%2Fhow-to-help-your-child-learn-to-read&psig=AOvVaw3hgwExJw1IKZc1Mko_6TnO&ust=1570559457545993" style="width:100%">
+    <div class="display-bottommiddle container text-white padding-32 hide-small">
+      <h3>Providing</h3>
+      <p><b>Quality resources</b></p>    
+    </div>
+  </div>
+  </div>
+</body>
+</html>
