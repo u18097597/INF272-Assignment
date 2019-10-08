@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Material</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <div>
+        <label style="text-align:left;">Steps to follow:</label>
+        <p>
+        Step 1: Copy website link from website URL
+        <br />
+        Step 2: Paste website URL to the textbox
+        <br />
+        Step 3: Click on Add button to add link
+        </p>
+        <br />
+        <br />
+    <div>
+        <label>Add Video</label>
+        <br />
+        <input type="text" value="Material"/>
+        <input type="button" value="Add" />
+        <br />
+        <label>Add Audio</label>
+        <br />
+        <input type="text" value="Material" />
+        <input type="button" value="Add" />
+        <br />
+        <label>Add PDF</label>
+        <br />
+        <input type="text" value="Material" />
+        <input type="button" value="Add" />
+    </div>
+    <br />
+    <br />
+  </div>
+</body>
+</html>
