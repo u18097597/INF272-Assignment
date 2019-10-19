@@ -1,0 +1,24 @@
+        public void SendEmail(string tempPass)
+        {
+            try
+            {
+                MailMessage mail = new MailMessage();
+                SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
+
+                mail.From = new MailAddress("email from");
+                mail.To.Add("email to");
+                mail.Subject = "Temporary Password";
+                mail.Body = "Your temporary password is : " + tempPass;
+
+                SmtpServer.Port = 587;
+                SmtpServer.Credentials = new System.Net.NetworkCredential("useremail", "password");
+                SmtpServer.EnableSsl = true;
+
+                SmtpServer.Send(mail);
+                Console.Write("mail Send");
+            }
+            catch (Exception ex)
+            {
+                Console.Write(ex.ToString());
+            }
+        }
