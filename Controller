@@ -1,0 +1,23 @@
+ public ActionResult Index()
+        {
+            return View();
+        }
+
+        public ActionResult AddOrEdit(int id=0)
+        {
+            User userModel = new User();
+            return View(userModel);
+        }
+        //Hashing password using SHA and Salt method
+        //A method that shows if Admin logs in then return view with the following and if student logins then return the following view.
+        //Get data method to store register method in database
+
+        //Login is for the Login view and also the authentication when logging in
+        public ActionResult Login()
+        {
+            return View();
+        }
+
+        //this is for registering method and view
+        public ActionResult Register()
+        {
